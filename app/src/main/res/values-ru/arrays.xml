@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_items">
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+    <string-array name="backup_restore_items">
+        <item>Копировать</item>
+        <item>Восстановить</item>
+    </string-array>
+
+    <string-array name="custom_bg_type_entries">
+        <item>Изображение</item>
+        <item>Сплошной цвет</item>
+        <item>Градиент</item>
+    </string-array>
+    <string-array name="gradient_entries">
+        <item>Сверху вниз</item>
+        <item>Снизу вверх</item>
+        <item>Слева направо</item>
+        <item>Справа налево</item>
+    </string-array>
+    <string-array name="crop_entries">
+        <item>Центр</item>
+        <item>Центр внутри</item>
+        <item>Растянуть</item>
+    </string-array>
+
+    <string-array name="tw_effect_entries">
+        <item>Нет</item>
+        <item>Каскад</item>
+        <item>Внешний куб</item>
+        <item>Внутренний куб</item>
+        <item>Карусель</item>
+        <item>Конвейер</item>
+        <item>Карты</item>
+    </string-array>
+    <string-array name="tw_effect_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="clock_style_entries">
+        <item>Справа</item>
+        <item>В центре</item>
+        <item>Слева</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_display_entries">
+        <item>Скрыть дату</item>
+        <item>Мальнький размер шрифта</item>
+        <item>Большой размер шрифта</item>
+    </string-array>
+    <string-array name="clock_date_display_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_style_entries">
+        <item>Нормальный</item>
+        <item>Строчный</item>
+        <item>Прописной</item>
+    </string-array>
+    <string-array name="clock_date_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_font_style_entries">
+        <item>Обычный</item>
+        <item>Курсив</item>
+        <item>Жирный</item>
+        <item>Жирный курсив</item>
+        <item>Легкий</item>
+        <item>Легкий курсив</item>
+        <item>Тонкий</item>
+        <item>Тонкий курсив</item>
+        <item>Плотный курсив</item>
+        <item>Плотный курсив</item>
+        <item>Плотный жирный</item>
+        <item>Плотный жирный курсив</item>
+        <item>Средний</item>
+        <item>Средний курсив</item>
+    </string-array>
+    <string-array name="clock_font_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_date_position_entries">
+        <item>Слева от часов</item>
+        <item>Справа от часов</item>
+    </string-array>
+    <string-array name="clock_date_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+    </string-array>
+
+    <string-array name="home_doubletap">
+        <item>Отключено</item>
+        <item>Приложение</item>
+        <item>Фонарик</item>
+        <item>Закрытие приложения</item>
+        <item>Недавние приложения</item>
+        <item>Снимок экрана</item>
+        <item>Запись экрана</item>
+        <item>Поиск Google</item>
+        <item>Голосовые команды (по умолчанию)</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="home_doubletap_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+        <item>0</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="home_longpress">
+        <item>Отключено</item>
+        <item>Приложение</item>
+        <item>Фонарик</item>
+        <item>Закрытие приложения</item>
+        <item>Недавние приложения (по умолчанию)</item>
+        <item>Снимок экрана</item>
+        <item>Запись экрана</item>
+        <item>Поиск Google</item>
+        <item>Голосовые команды</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="home_longpress_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>6</item>
+        <item>7</item>
+        <item>3</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="home_tripletap">
+        <item>Отключено</item>
+        <item>Приложение</item>
+        <item>Фонарик</item>
+        <item>Закрытие приложения</item>
+        <item>Недавние приложения</item>
+        <item>Снимок экрана</item>
+        <item>Запись экрана</item>
+        <item>Поиск Google</item>
+        <item>Голосовые команды</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="home_tripletap_values">
+        <item>0</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="shape_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="shape_entries">
+        <item>Стоковая форма</item>
+        <item>Закругленные углы</item>
+    </string-array>
+
+    <string-array name="button_key_light_entries">
+        <item>Всегда выключены</item>
+        <item>1 секунда</item>
+        <item>3 секунды</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+    </string-array>
+    <string-array name="button_key_light_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+    </string-array>
+</resources>
