@@ -52,5 +52,8 @@
     <string name="switch_off">Отключен</string>
     <string name="switch_on">Включен</string>
     <string name="usb_plug_wakeup">Экран при подключении к USB</string>
+    <string name="theme_text">Темы</string>
+    <string name="profile_text">Мой профиль</string>
+    <string name="thank_text">Спасибо</string>
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

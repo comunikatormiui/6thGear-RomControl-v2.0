@@ -51,7 +51,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Темы"
+                    android:text="@string/theme_text"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 
@@ -69,7 +69,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Мой профиль"
+                    android:text="@string/profile_text"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 
@@ -87,7 +87,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Спасибо"
+                    android:text="@string/thank_text"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 
