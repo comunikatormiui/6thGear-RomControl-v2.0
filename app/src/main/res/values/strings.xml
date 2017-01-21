@@ -64,11 +64,17 @@
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
     <string name="show_network_type">Show network type</string>
+    <string name="auto_record">Auto call record</string>
     <string name="switch_hide">Hide</string>
     <string name="switch_show">Show</string>
     <string name="switch_off">Off</string>
     <string name="switch_on">On</string>
+    <string name="witch_off">Off</string>
+    <string name="witch_on">On</string>
     <string name="usb_plug_wakeup">USB plug in/out wakeup</string>
+    <string name="volume_warning">Safe volume warning</string>
+    <string name="low_battery_savemode">Low battery warning percentage</string>
+    <string name="low_battery_supermode">Critical battery warning percentage</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>

@@ -11,4 +11,25 @@
         android:summaryOn="@string/switch_on"
         android:title="@string/usb_plug_wakeup"/>
 
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="volume_warning_toggle"
+        android:summaryOff="@string/switch_hide"
+        android:summaryOn="@string/switch_show"
+        android:title="@string/volume_warning"/>
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/low_battery_savemodenotif_entries"
+        android:title="@string/low_battery_savemode"
+        android:key="low_battery_savemodenotif"
+        android:defaultValue="20"
+        android:entryValues="@array/low_battery_savemodenotif_values" />
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/low_battery_supermodenotif_entries"
+        android:title="@string/low_battery_supermode"
+        android:key="low_battery_supermodenotif"
+        android:defaultValue="10"
+        android:entryValues="@array/low_battery_supermodenotif_values" />
+
 </PreferenceScreen>

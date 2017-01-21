@@ -47,11 +47,17 @@
     <string name="imminent_reboot_warning">Устройство будет перезагружен сразу же после завершения сценария!!!</string>
     <string name="restore_dialog_description">Это действие восстановит стоковые цвета</string>
     <string name="show_network_type">Тип сети при включенном WiFi</string>
+    <string name="auto_record">Автозапись звонков</string>
     <string name="switch_hide">Скрыть</string>
     <string name="switch_show">Показать</string>
     <string name="switch_off">Отключен</string>
     <string name="switch_on">Включен</string>
+    <string name="witch_off">Отключена</string>
+    <string name="witch_on">Включена</string>
     <string name="usb_plug_wakeup">Экран при подключении к USB</string>
+    <string name="volume_warning">Диалог о безопастной громкости</string>
+    <string name="low_battery_savemode">Предупреждение о низком заряде</string>
+    <string name="low_battery_supermode">Предупреждение об очень низком заряде</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>
