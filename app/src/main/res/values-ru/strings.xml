@@ -56,8 +56,11 @@
     <string name="witch_on">Включена</string>
     <string name="usb_plug_wakeup">Экран при подключении к USB</string>
     <string name="volume_warning">Диалог о безопастной громкости</string>
+    <string name="reboot_recovery">Перезагрузка в рекавери</string>
     <string name="low_battery_savemode">Предупреждение о низком заряде</string>
     <string name="low_battery_supermode">Предупреждение об очень низком заряде</string>
+    <string name="longpress_back_key_action">Удержание кнопки Назад</string>
+    <string name="longpress_home_key_action">Удержание кнопки Домой</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>

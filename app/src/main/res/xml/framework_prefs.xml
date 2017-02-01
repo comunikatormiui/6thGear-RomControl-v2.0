@@ -18,6 +18,13 @@
         android:summaryOn="@string/switch_show"
         android:title="@string/volume_warning"/>
 
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="0"
+        android:key="enable_reboot_recovery"
+        android:summaryOff="@string/witch_off"
+        android:summaryOn="@string/witch_on"
+        android:title="@string/reboot_recovery"/>
+
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:entries="@array/low_battery_savemodenotif_entries"
         android:title="@string/low_battery_savemode"
@@ -31,5 +38,17 @@
         android:key="low_battery_supermodenotif"
         android:defaultValue="10"
         android:entryValues="@array/low_battery_supermodenotif_values" />
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/navbar_kbtn_key"
+        android:title="@string/longpress_back_key_action"
+        android:key="longpress_back_key"
+        android:entryValues="@array/navbar_kbtn_value" />
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/navbar_kbtn_key"
+        android:title="@string/longpress_home_key_action"
+        android:key="longpress_home_key"
+        android:entryValues="@array/navbar_kbtn_value" />
 
 </PreferenceScreen>

@@ -298,4 +298,29 @@
         <item>16</item>
         <item>20</item>
     </string-array>
+
+    <string-array name="navbar_kbtn_key">
+        <item>No action</item>
+        <item>Torch</item>
+        <item>Lock Screen</item>
+        <item>Calculator</item>
+        <item>Camera</item>
+        <item>Weather</item>
+        <item>Home key</item>
+        <item>Back key</item>
+        <item>Menu key</item>
+        <item>Brightness control</item>
+    </string-array>
+    <string-array name="navbar_kbtn_value">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
 </resources>

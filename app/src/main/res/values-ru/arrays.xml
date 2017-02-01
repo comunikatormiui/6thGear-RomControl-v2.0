@@ -266,4 +266,29 @@
         <item>16</item>
         <item>20</item>
     </string-array>
+
+    <string-array name="navbar_kbtn_key">
+        <item>Нет действия</item>
+        <item>Фонарик</item>
+        <item>Блокировка экрана</item>
+        <item>Калькулятор</item>
+        <item>Камера</item>
+        <item>Погода</item>
+        <item>Домой</item>
+        <item>Назад</item>
+        <item>Меню</item>
+        <item>Яркость</item>
+    </string-array>
+    <string-array name="navbar_kbtn_value">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
 </resources>

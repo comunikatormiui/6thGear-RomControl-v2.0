@@ -73,8 +73,11 @@
     <string name="witch_on">On</string>
     <string name="usb_plug_wakeup">USB plug in/out wakeup</string>
     <string name="volume_warning">Safe volume warning</string>
+    <string name="reboot_recovery">Reboot recovery</string>
     <string name="low_battery_savemode">Low battery warning percentage</string>
     <string name="low_battery_supermode">Critical battery warning percentage</string>
+    <string name="longpress_back_key_action">Longpress back key</string>
+    <string name="longpress_home_key_action">Longpress home key</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>
