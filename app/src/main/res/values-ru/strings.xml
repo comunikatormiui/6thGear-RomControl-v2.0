@@ -61,6 +61,12 @@
     <string name="low_battery_supermode">Предупреждение об очень низком заряде</string>
     <string name="longpress_back_key_action">Удержание кнопки Назад</string>
     <string name="longpress_home_key_action">Удержание кнопки Домой</string>
+    <string name="status_bar">Статусбар</string>
+    <string name="navigation_bar">Навбар</string>
+    <string name="notification_panel">Панель уведомлений</string>
+    <string name="press_clock_app">Нажатие на часы</string>
+    <string name="longpress_clock_app">Удержание часов</string>
+    <string name="longpress_signal_cluster_app">Удержание иконки сигнала</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>

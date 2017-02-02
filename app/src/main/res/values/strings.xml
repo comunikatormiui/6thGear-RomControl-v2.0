@@ -78,6 +78,12 @@
     <string name="low_battery_supermode">Critical battery warning percentage</string>
     <string name="longpress_back_key_action">Longpress back key</string>
     <string name="longpress_home_key_action">Longpress home key</string>
+    <string name="status_bar">Status bar</string>
+    <string name="navigation_bar">Navigation bar</string>
+    <string name="notification_panel">Notification panel</string>
+    <string name="press_clock_app">Press clock</string>
+    <string name="longpress_clock_app">Longpress clock</string>
+    <string name="longpress_signal_cluster_app">Longpress signal cluster</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>
