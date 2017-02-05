@@ -20,9 +20,9 @@
 
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:defaultValue="0"
-        android:key="enable_reboot_recovery"
-        android:summaryOff="@string/witch_off"
-        android:summaryOn="@string/witch_on"
+        android:key="reboot_op"
+        android:summaryOff="@string/switch_hide"
+        android:summaryOn="@string/switch_show"
         android:title="@string/reboot_recovery"/>
 
 </PreferenceScreen>
