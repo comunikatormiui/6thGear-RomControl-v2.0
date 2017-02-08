@@ -67,6 +67,8 @@
     <string name="press_clock_app">Нажатие на часы</string>
     <string name="longpress_clock_app">Удержание часов</string>
     <string name="longpress_signal_cluster_app">Удержание иконки сигнала</string>
+    <string name="recents_apps">Недавние приложения</string>
+    <string name="quick_launch_panel">Панель быстрого запуска</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>

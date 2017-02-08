@@ -80,4 +80,14 @@
             android:entryValues="@array/low_battery_supermodenotif_values" />
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:title="@string/recents_apps">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:key="quick_launch_visible"
+            android:summaryOff="@string/switch_hide"
+            android:summaryOn="@string/switch_show"
+            android:title="@string/quick_launch_panel"
+            app:rebootDevice="true"/>
+    </PreferenceScreen>
+
 </PreferenceScreen>
