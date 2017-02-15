@@ -291,4 +291,17 @@
         <item>15</item>
         <item>20</item>
     </string-array>
+
+    <string-array name="immersive_entries">
+        <item>Выключен (по умолчанию)</item>
+        <item>Включен (полный экран)</item>
+        <item>Скрыть статус бар</item>
+        <item>Скрыть навигационный бар</item>
+    </string-array>
+    <string-array name="immersive_values">
+        <item>immersive.full</item>
+        <item>immersive.full=*</item>
+        <item>immersive.status=*</item>
+        <item>immersive.navigation=*</item>
+    </string-array>
 </resources>

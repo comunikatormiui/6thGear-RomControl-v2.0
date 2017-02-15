@@ -25,4 +25,11 @@
         android:summaryOn="@string/switch_show"
         android:title="@string/reboot_recovery"/>
 
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/immersive_entries"
+        android:title="@string/immersive_mode"
+        android:key="policy_control"
+        android:summary="%s"
+        android:entryValues="@array/immersive_values" />
+
 </PreferenceScreen>

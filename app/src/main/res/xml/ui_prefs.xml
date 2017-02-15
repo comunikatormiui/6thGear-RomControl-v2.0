@@ -83,6 +83,7 @@
     <PreferenceScreen
         android:title="@string/recents_apps">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="1"
             android:key="quick_launch_visible"
             android:summaryOff="@string/switch_hide"
             android:summaryOn="@string/switch_show"

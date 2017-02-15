@@ -85,6 +85,7 @@
     <string name="longpress_clock_app">Longpress clock</string>
     <string name="longpress_signal_cluster_app">Longpress signal cluster</string>
     <string name="recents_apps">Recents apps</string>
+    <string name="immersive_mode">Full screen mode</string>
     <string name="quick_launch_panel">Quicklaunch panel</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
