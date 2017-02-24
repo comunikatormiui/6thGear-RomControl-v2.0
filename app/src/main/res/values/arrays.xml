@@ -270,6 +270,7 @@
     </string-array>
 
     <string-array name="low_battery_supermodenotif_entries">
+        <item>Off</item>
         <item>2 percent</item>
         <item>4 percent</item>
         <item>6 percent</item>
@@ -277,6 +278,7 @@
         <item>10 percent</item>
     </string-array>
     <string-array name="low_battery_supermodenotif_values">
+        <item>0</item>
         <item>2</item>
         <item>4</item>
         <item>6</item>
@@ -285,6 +287,7 @@
     </string-array>
 
     <string-array name="low_battery_savemodenotif_entries">
+        <item>Off</item>
         <item>4 percent</item>
         <item>8 percent</item>
         <item>12 percent</item>
@@ -292,6 +295,7 @@
         <item>20 percent</item>
     </string-array>
     <string-array name="low_battery_savemodenotif_values">
+        <item>0</item>
         <item>4</item>
         <item>8</item>
         <item>12</item>
@@ -335,5 +339,18 @@
         <item>immersive.full=*</item>
         <item>immersive.status=*</item>
         <item>immersive.navigation=*</item>
+    </string-array>
+
+    <string-array name="status_bar_clock_style_entries">
+        <item>Right</item>
+        <item>Center</item>
+        <item>Left</item>
+        <item>Hide</item>
+    </string-array>
+    <string-array name="status_bar_clock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 </resources>

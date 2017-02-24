@@ -70,6 +70,8 @@
     <string name="recents_apps">Недавние приложения</string>
     <string name="immersive_mode">Полноэкранный режим</string>
     <string name="quick_launch_panel">Панель быстрого запуска</string>
+    <string name="status_bar_clock_style">Расположение часов</string>
+    <string name="show_alarm_icon">Иконка будильника</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>

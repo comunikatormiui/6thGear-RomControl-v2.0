@@ -87,6 +87,8 @@
     <string name="recents_apps">Recents apps</string>
     <string name="immersive_mode">Full screen mode</string>
     <string name="quick_launch_panel">Quicklaunch panel</string>
+    <string name="status_bar_clock_style">Clock location</string>
+    <string name="show_alarm_icon">Alarm icon</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>

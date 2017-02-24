@@ -30,6 +30,20 @@
             android:title="@string/show_network_type"
             app:rebootDevice="true"/>
 
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="1"
+            android:key="alarm_icon"
+            android:summaryOff="@string/switch_hide"
+            android:summaryOn="@string/switch_show"
+            android:title="@string/show_alarm_icon" />
+
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/status_bar_clock_style_entries"
+            android:title="@string/status_bar_clock_style"
+            android:key="status_bar_clock_style"
+            android:summary="%s"
+            android:entryValues="@array/status_bar_clock_style_values" />
+
         <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
             android:key="press_clock_custom_app"
             android:title="@string/press_clock_app"

@@ -238,6 +238,7 @@
     </string-array>
 
     <string-array name="low_battery_supermodenotif_entries">
+        <item>Отключено</item>
         <item>2 процента</item>
         <item>4 процента</item>
         <item>6 процентов</item>
@@ -245,6 +246,7 @@
         <item>10 процентов</item>
     </string-array>
     <string-array name="low_battery_supermodenotif_values">
+        <item>0</item>
         <item>2</item>
         <item>4</item>
         <item>6</item>
@@ -253,6 +255,7 @@
     </string-array>
 
     <string-array name="low_battery_savemodenotif_entries">
+        <item>Отключено</item>
         <item>4 процента</item>
         <item>8 процентов</item>
         <item>12 процентов</item>
@@ -260,6 +263,7 @@
         <item>20 процентов</item>
     </string-array>
     <string-array name="low_battery_savemodenotif_values">
+        <item>0</item>
         <item>4</item>
         <item>8</item>
         <item>12</item>
@@ -303,5 +307,18 @@
         <item>immersive.full=*</item>
         <item>immersive.status=*</item>
         <item>immersive.navigation=*</item>
+    </string-array>
+
+    <string-array name="status_bar_clock_style_entries">
+        <item>Справа</item>
+        <item>Центр</item>
+        <item>Слева</item>
+        <item>Скрыть</item>
+    </string-array>
+    <string-array name="status_bar_clock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 </resources>
