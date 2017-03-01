@@ -32,4 +32,20 @@
         android:summary="%s"
         android:entryValues="@array/immersive_values" />
 
+    <PreferenceScreen
+        android:title="@string/volume_rocker_music_control">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="@string/music_control"
+            android:key="volbtn_music_controls"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/volbtn_timeout_entries"
+            android:title="@string/long_press_timeout"
+            android:key="volbtn_timeout"
+            android:summary="%s"
+            android:defaultValue="350"
+            android:dependency="volbtn_music_controls"
+            android:entryValues="@array/volbtn_timeout_values" />
+    </PreferenceScreen>
+
 </PreferenceScreen>

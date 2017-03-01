@@ -62,19 +62,32 @@
 
     <PreferenceScreen
         android:title="@string/navigation_bar">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/navbar_kbtn_key"
-            android:title="@string/longpress_back_key_action"
-            android:key="longpress_back_key"
-            android:defaultValue="0"
-            android:entryValues="@array/navbar_kbtn_value" />
+        <PreferenceCategory
+            android:title="@string/back_button">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/navbar_kbtn_key"
+                android:title="@string/longpress_back_key_action"
+                android:key="longpress_back_key"
+                android:defaultValue="0"
+                android:entryValues="@array/navbar_kbtn_value" />
+        </PreferenceCategory>
 
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/navbar_kbtn_key"
-            android:title="@string/longpress_home_key_action"
-            android:key="longpress_home_key"
-            android:defaultValue="0"
-            android:entryValues="@array/navbar_kbtn_value" />
+        <PreferenceCategory
+            android:title="@string/home_button">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="1"
+                android:key="enable_stock_hw_assist"
+                android:summaryOff="@string/switch_off"
+                android:summaryOn="@string/switch_on"
+                android:title="Now on Tap" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/navbar_kbtn_key"
+                android:title="@string/longpress_home_key_action"
+                android:key="longpress_home_key"
+                android:defaultValue="0"
+                app:reverseDependency="enable_stock_hw_assist"
+                android:entryValues="@array/navbar_kbtn_value" />
+        </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen

@@ -52,6 +52,8 @@
     <string name="switch_show">Показать</string>
     <string name="switch_off">Отключен</string>
     <string name="switch_on">Включен</string>
+    <string name="sswitch_off">Отключено</string>
+    <string name="sswitch_on">Включено</string>
     <string name="witch_off">Отключена</string>
     <string name="witch_on">Включена</string>
     <string name="usb_plug_wakeup">Экран при подключении к USB</string>
@@ -61,6 +63,8 @@
     <string name="low_battery_supermode">Предупреждение об очень низком заряде</string>
     <string name="longpress_back_key_action">Удержание кнопки Назад</string>
     <string name="longpress_home_key_action">Удержание кнопки Домой</string>
+    <string name="back_button">Кнопка Назад</string>
+    <string name="home_button">Кнопка Домой</string>
     <string name="status_bar">Статусбар</string>
     <string name="navigation_bar">Навбар</string>
     <string name="notification_panel">Панель уведомлений</string>
@@ -72,6 +76,9 @@
     <string name="quick_launch_panel">Панель быстрого запуска</string>
     <string name="status_bar_clock_style">Расположение часов</string>
     <string name="show_alarm_icon">Иконка будильника</string>
+    <string name="volume_rocker_music_control">Удержание кнопки громкости</string>
+    <string name="music_control">Переключение треков</string>
+    <string name="long_press_timeout">Задержка при удержании</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>

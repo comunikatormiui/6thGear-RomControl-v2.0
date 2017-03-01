@@ -69,6 +69,8 @@
     <string name="switch_show">Show</string>
     <string name="switch_off">Off</string>
     <string name="switch_on">On</string>
+    <string name="sswitch_off">Off</string>
+    <string name="sswitch_on">On</string>
     <string name="witch_off">Off</string>
     <string name="witch_on">On</string>
     <string name="usb_plug_wakeup">USB plug in/out wakeup</string>
@@ -76,8 +78,10 @@
     <string name="reboot_recovery">Reboot menu</string>
     <string name="low_battery_savemode">Low battery warning percentage</string>
     <string name="low_battery_supermode">Critical battery warning percentage</string>
-    <string name="longpress_back_key_action">Longpress back key</string>
-    <string name="longpress_home_key_action">Longpress home key</string>
+    <string name="longpress_back_key_action">Longpress Back key</string>
+    <string name="longpress_home_key_action">Longpress Home key</string>
+    <string name="back_button">Back button</string>
+    <string name="home_button">Home button</string>
     <string name="status_bar">Status bar</string>
     <string name="navigation_bar">Navigation bar</string>
     <string name="notification_panel">Notification panel</string>
@@ -89,6 +93,9 @@
     <string name="quick_launch_panel">Quicklaunch panel</string>
     <string name="status_bar_clock_style">Clock location</string>
     <string name="show_alarm_icon">Alarm icon</string>
+    <string name="volume_rocker_music_control">Longpress volume key</string>
+    <string name="music_control">Music control</string>
+    <string name="long_press_timeout">Long press timeout</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>
