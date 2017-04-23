@@ -348,4 +348,28 @@
         <item>450</item>
         <item>500</item>
     </string-array>
+    <string-array name="volbtn_action_entries">
+        <item>Следующий</item>
+        <item>Пауза</item>
+        <item>Играть</item>
+        <item>Играть/Пауза</item>
+        <item>Предыдущий</item>
+    </string-array>
+    <string-array name="volbtn_action_values">
+        <item>87</item>
+        <item>127</item>
+        <item>126</item>
+        <item>85</item>
+        <item>88</item>
+    </string-array>
+    <string-array name="volbtn_down_action_entries">
+        <item>Следующий</item>
+        <item>Пауза</item>
+        <item>Предыдущий</item>
+    </string-array>
+    <string-array name="volbtn_down_action_values">
+        <item>87</item>
+        <item>127</item>
+        <item>88</item>
+    </string-array>
 </resources>

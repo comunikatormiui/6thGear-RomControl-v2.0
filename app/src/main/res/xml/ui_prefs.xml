@@ -30,13 +30,6 @@
             android:title="@string/show_network_type"
             app:rebootDevice="true"/>
 
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="1"
-            android:key="alarm_icon"
-            android:summaryOff="@string/switch_hide"
-            android:summaryOn="@string/switch_show"
-            android:title="@string/show_alarm_icon" />
-
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/status_bar_clock_style_entries"
             android:title="@string/status_bar_clock_style"
@@ -55,9 +48,36 @@
             app:intentSeparator="##"/>
 
         <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+            android:key="press_hwsignal_custom_app"
+            android:title="@string/press_signal_cluster_app"
+            app:intentSeparator="##"/>
+
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
             android:key="longpress_signal_cluster_custom_app"
             android:title="@string/longpress_signal_cluster_app"
             app:intentSeparator="##"/>
+
+        <PreferenceScreen
+            android:title="@string/virtual_lock_button">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="@string/right_side"
+                android:key="cocoyaya_rightcornerlock"
+                android:defaultValue="false"
+                android:summaryOn="@string/witch_on"
+                android:summaryOff="@string/witch_off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="@string/left_side"
+                android:key="cocoyaya_leftcornerlock"
+                android:defaultValue="false"
+                android:summaryOn="@string/witch_on"
+                android:summaryOff="@string/witch_off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="@string/center_lock"
+                android:key="cocoyaya_centerlock"
+                android:defaultValue="false"
+                android:summaryOn="@string/witch_on"
+                android:summaryOff="@string/witch_off" />
+        </PreferenceScreen>
     </PreferenceScreen>
 
     <PreferenceScreen

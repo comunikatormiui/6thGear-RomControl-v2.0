@@ -87,6 +87,7 @@
     <string name="notification_panel">Notification panel</string>
     <string name="press_clock_app">Press clock</string>
     <string name="longpress_clock_app">Longpress clock</string>
+    <string name="press_signal_cluster_app">Press signal cluster</string>
     <string name="longpress_signal_cluster_app">Longpress signal cluster</string>
     <string name="recents_apps">Recents apps</string>
     <string name="immersive_mode">Full screen mode</string>
@@ -96,6 +97,12 @@
     <string name="volume_rocker_music_control">Longpress volume key</string>
     <string name="music_control">Music control</string>
     <string name="long_press_timeout">Long press timeout</string>
+    <string name="virtual_lock_button">Virtual Lock button</string>
+    <string name="right_side">Right side</string>
+    <string name="left_side">Left side</string>
+    <string name="center_lock">Center</string>
+    <string name="volbtn_vol_up_title">Volume Up Action</string>
+    <string name="volbtn_vol_down_title">Volume Down Action</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>

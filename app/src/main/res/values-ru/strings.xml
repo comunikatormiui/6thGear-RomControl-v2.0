@@ -70,6 +70,7 @@
     <string name="notification_panel">Панель уведомлений</string>
     <string name="press_clock_app">Нажатие на часы</string>
     <string name="longpress_clock_app">Удержание часов</string>
+    <string name="press_signal_cluster_app">Нажатие на иконку сигнала</string>
     <string name="longpress_signal_cluster_app">Удержание иконки сигнала</string>
     <string name="recents_apps">Недавние приложения</string>
     <string name="immersive_mode">Полноэкранный режим</string>
@@ -79,6 +80,12 @@
     <string name="volume_rocker_music_control">Удержание кнопки громкости</string>
     <string name="music_control">Переключение треков</string>
     <string name="long_press_timeout">Задержка при удержании</string>
+    <string name="virtual_lock_button">Виртуальная кнопка блокировки</string>
+    <string name="right_side">Справа</string>
+    <string name="left_side">Слева</string>
+    <string name="center_lock">Центр</string>
+    <string name="volbtn_vol_up_title">Громкость вверх</string>
+    <string name="volbtn_vol_down_title">Громкость вниз</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>

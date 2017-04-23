@@ -39,6 +39,22 @@
             android:key="volbtn_music_controls"
             android:defaultValue="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/volbtn_action_entries"
+            android:title="@string/volbtn_vol_up_title"
+            android:key="volbtn_vol_up"
+            android:summary="%s"
+            android:dependency="volbtn_music_controls"
+            android:defaultValue="87"
+            android:entryValues="@array/volbtn_action_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/volbtn_down_action_entries"
+            android:title="@string/volbtn_vol_down_title"
+            android:key="volbtn_vol_down"
+            android:summary="%s"
+            android:dependency="volbtn_music_controls"
+            android:defaultValue="88"
+            android:entryValues="@array/volbtn_down_action_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/volbtn_timeout_entries"
             android:title="@string/long_press_timeout"
             android:key="volbtn_timeout"
