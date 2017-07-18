@@ -315,21 +315,27 @@
         <item>Home key</item>
         <item>Back key</item>
         <item>Menu key</item>
+        <item>Volume up</item>
+        <item>Volume down</item>
         <item>Brightness control</item>
+        <item>Cust application</item>
     </string-array>
     <string-array name="navbar_kbtn_value">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
         <item>6</item>
         <item>7</item>
+        <item>8</item>
         <item>9</item>
         <item>10</item>
+        <item>11</item>
+        <item>12</item>
         <item>13</item>
         <item>14</item>
-        <item>15</item>
-        <item>20</item>
     </string-array>
 
     <string-array name="immersive_entries">

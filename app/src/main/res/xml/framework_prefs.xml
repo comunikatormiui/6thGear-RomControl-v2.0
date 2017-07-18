@@ -25,19 +25,28 @@
         android:summaryOn="@string/switch_show"
         android:title="@string/reboot_recovery"/>
 
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        android:entries="@array/immersive_entries"
-        android:title="@string/immersive_mode"
-        android:key="policy_control"
-        android:summary="%s"
-        android:entryValues="@array/immersive_values" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="0"
+        android:key="enable_all_rotat"
+        android:summaryOff="@string/switch_off"
+        android:summaryOn="@string/switch_on"
+        android:title="@string/allow_all_rotations"
+        app:rebootDevice="true" />
 
     <PreferenceScreen
-        android:title="@string/volume_rocker_music_control">
+        android:title="@string/volume_rocker">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="@string/volume_wake"
+            android:key="volume_wake_screen"
+            android:defaultValue="0"
+            app:reverseDependency="volbtn_music_controls"
+            android:summaryOn="@string/sswitch_on"
+            android:summaryOff="@string/sswitch_off" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="@string/music_control"
             android:key="volbtn_music_controls"
-            android:defaultValue="false" />
+            android:defaultValue="false"
+            app:reverseDependency="volume_wake_screen" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/volbtn_action_entries"
             android:title="@string/volbtn_vol_up_title"
@@ -63,5 +72,12 @@
             android:dependency="volbtn_music_controls"
             android:entryValues="@array/volbtn_timeout_values" />
     </PreferenceScreen>
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/immersive_entries"
+        android:title="@string/immersive_mode"
+        android:key="policy_control"
+        android:summary="%s"
+        android:entryValues="@array/immersive_values" />
 
 </PreferenceScreen>
