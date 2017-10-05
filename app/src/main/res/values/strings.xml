@@ -75,7 +75,7 @@
     <string name="witch_on">On</string>
     <string name="usb_plug_wakeup">USB plug in/out wakeup</string>
     <string name="volume_warning">Safe volume warning</string>
-    <string name="reboot_recovery">Reboot menu</string>
+    <string name="button_light">Buttons Light</string>
     <string name="low_battery_savemode">Low battery warning percentage</string>
     <string name="low_battery_supermode">Critical battery warning percentage</string>
     <string name="longpress_back_key_action">Longpress Back key</string>

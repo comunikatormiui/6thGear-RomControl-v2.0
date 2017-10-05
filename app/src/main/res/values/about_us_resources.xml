@@ -28,15 +28,15 @@
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
         <item>ROMControl</item>
-        <item>HuaweiP9-4pda</item>
-        <item>HuaweiP9-xda</item>
+        <item>Mi A1-4pda</item>
+        <item>Mi A1-xda</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
         <item>http://forum.xda-developers.com/android/general/source-code-6thgear-romcontrol-v2-devs-t3411916</item>
-        <item>http://4pda.ru/forum/index.php?showtopic=715351</item>
-        <item>http://forum.xda-developers.com/p9</item>
+        <item>https://4pda.ru/forum/index.php?showtopic=842604</item>
+        <item>https://forum.xda-developers.com/mi-a1</item>
     </string-array>
 
 

@@ -240,35 +240,27 @@
     <string-array name="low_battery_supermodenotif_entries">
         <item>Отключено</item>
         <item>2 процента</item>
-        <item>4 процента</item>
-        <item>6 процентов</item>
-        <item>8 процентов</item>
-        <item>10 процентов</item>
+        <item>3 процента</item>
+        <item>5 процентов</item>
     </string-array>
     <string-array name="low_battery_supermodenotif_values">
         <item>0</item>
         <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
+        <item>3</item>
+        <item>5</item>
     </string-array>
 
     <string-array name="low_battery_savemodenotif_entries">
         <item>Отключено</item>
-        <item>4 процента</item>
-        <item>8 процентов</item>
-        <item>12 процентов</item>
-        <item>16 процентов</item>
-        <item>20 процентов</item>
+        <item>5 процента</item>
+        <item>10 процентов</item>
+        <item>15 процентов</item>
     </string-array>
     <string-array name="low_battery_savemodenotif_values">
         <item>0</item>
-        <item>4</item>
-        <item>8</item>
-        <item>12</item>
-        <item>16</item>
-        <item>20</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
     </string-array>
 
     <string-array name="navbar_kbtn_key">
@@ -286,7 +278,6 @@
         <item>Громкость +</item>
         <item>Громкость -</item>
         <item>Яркость</item>
-        <item>Приложение</item>
     </string-array>
     <string-array name="navbar_kbtn_value">
         <item>0</item>
@@ -303,7 +294,6 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
-        <item>14</item>
     </string-array>
 
     <string-array name="immersive_entries">

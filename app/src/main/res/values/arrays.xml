@@ -272,35 +272,27 @@
     <string-array name="low_battery_supermodenotif_entries">
         <item>Off</item>
         <item>2 percent</item>
-        <item>4 percent</item>
-        <item>6 percent</item>
-        <item>8 percent</item>
-        <item>10 percent</item>
+        <item>3 percent</item>
+        <item>5 percent</item>
     </string-array>
     <string-array name="low_battery_supermodenotif_values">
         <item>0</item>
         <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
+        <item>3</item>
+        <item>5</item>
     </string-array>
 
     <string-array name="low_battery_savemodenotif_entries">
         <item>Off</item>
-        <item>4 percent</item>
-        <item>8 percent</item>
-        <item>12 percent</item>
-        <item>16 percent</item>
-        <item>20 percent</item>
+        <item>5 percent</item>
+        <item>10 percent</item>
+        <item>15 percent</item>
     </string-array>
     <string-array name="low_battery_savemodenotif_values">
         <item>0</item>
-        <item>4</item>
-        <item>8</item>
-        <item>12</item>
-        <item>16</item>
-        <item>20</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
     </string-array>
 
     <string-array name="navbar_kbtn_key">
@@ -318,7 +310,6 @@
         <item>Volume up</item>
         <item>Volume down</item>
         <item>Brightness control</item>
-        <item>Cust application</item>
     </string-array>
     <string-array name="navbar_kbtn_value">
         <item>0</item>
@@ -335,7 +326,6 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
-        <item>14</item>
     </string-array>
 
     <string-array name="immersive_entries">
