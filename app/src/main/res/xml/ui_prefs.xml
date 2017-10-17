@@ -21,20 +21,32 @@
         app:imageSource="@drawable/android"/>
 
     <PreferenceScreen
+        android:title="@string/status_bar">
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+            android:key="longpress_clock_custom_app"
+            android:title="@string/longpress_clock_app"
+            app:intentSeparator="##"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:title="@string/notification_panel">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/low_battery_savemodenotif_entries"
             android:title="@string/low_battery_savemode"
             android:key="low_battery_savemodenotif"
             android:defaultValue="15"
-            android:entryValues="@array/low_battery_savemodenotif_values" />
+            android:entryValues="@array/low_battery_savemodenotif_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
 
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/low_battery_supermodenotif_entries"
             android:title="@string/low_battery_supermode"
             android:key="low_battery_supermodenotif"
             android:defaultValue="5"
-            android:entryValues="@array/low_battery_supermodenotif_values" />
+            android:entryValues="@array/low_battery_supermodenotif_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
     </PreferenceScreen>
 
 </PreferenceScreen>

@@ -393,11 +393,15 @@
     <string-array name="volbtn_down_action_entries">
         <item>Next</item>
         <item>Pause</item>
+        <item>Play</item>
+        <item>Play/Pause</item>
         <item>Previous</item>
     </string-array>
     <string-array name="volbtn_down_action_values">
         <item>87</item>
         <item>127</item>
+        <item>126</item>
+        <item>85</item>
         <item>88</item>
     </string-array>
 </resources>
