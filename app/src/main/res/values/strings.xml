@@ -105,6 +105,10 @@
     <string name="volbtn_vol_down_title">Volume Down Action</string>
     <string name="volume_wake">Volume rocker wake</string>
     <string name="allow_all_rotations">Allow All Rotations</string>
+    <string name="nav_bar">NavBar</string>
+    <string name="on_screen_buttons">On-Screen Buttons</string>
+    <string name="unlocking_with_fingerprint">Unlocking With Fingerprint</string>
+    <string name="aokp_ram_panel">A.O.K.P Ram Bar</string>
     <string name="theme_text">Themes</string>
     <string name="profile_text">My profile</string>
     <string name="thank_text">Thank</string>

@@ -29,6 +29,23 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:title="@string/nav_bar">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="qemu_hw_mainkeys"
+            android:summaryOff="@string/switch_hide"
+            android:summaryOn="@string/switch_show"
+            android:title="@string/on_screen_buttons"
+            app:rebootDevice="true"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/immersive_entries"
+            android:title="@string/immersive_mode"
+            android:key="policy_control"
+            android:summary="%s"
+            android:entryValues="@array/immersive_values" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:title="@string/notification_panel">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/low_battery_savemodenotif_entries"
@@ -45,6 +62,25 @@
             android:key="low_battery_supermodenotif"
             android:defaultValue="5"
             android:entryValues="@array/low_battery_supermodenotif_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="@string/recents_apps">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="1"
+            android:key="quick_launch_visible"
+            android:summaryOff="@string/switch_hide"
+            android:summaryOn="@string/switch_show"
+            android:title="@string/quick_launch_panel"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="1"
+            android:key="aokpram"
+            android:summaryOff="@string/switch_hide"
+            android:summaryOn="@string/switch_show"
+            android:title="@string/aokp_ram_panel"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui" />
     </PreferenceScreen>

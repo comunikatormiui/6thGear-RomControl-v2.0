@@ -18,6 +18,13 @@
         android:summaryOn="@string/witch_on"
         android:title="@string/button_light"/>
 
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/unlocking_with_fingerprint"
+        android:key="unlocking_fingerprint_allowed"
+        android:defaultValue="false"
+        android:summaryOn="@string/witch_on"
+        android:summaryOff="@string/witch_off" />
+
     <PreferenceScreen
         android:title="@string/volume_rocker">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference

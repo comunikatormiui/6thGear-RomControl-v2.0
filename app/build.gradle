@@ -29,7 +29,6 @@ android {
         }
     }
     compileSdkVersion 24
-    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.wubydax.romcontrol.v2"
         minSdkVersion 21
@@ -47,9 +46,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.gearSigningConfig
             applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    output.outputFile = new File(output.outputFile.parent,
-                            output.outputFile.name.replace("-release", ""))
+                variant.outputs.all {
+                    outputFileName = "${variant.name}-${variant.versionName}.apk"
                 }
             }
         }

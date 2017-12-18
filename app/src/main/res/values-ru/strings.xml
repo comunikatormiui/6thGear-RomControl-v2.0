@@ -88,6 +88,10 @@
     <string name="volbtn_vol_down_title">Громкость вниз</string>
     <string name="volume_wake">Будить кнопкой громкости</string>
     <string name="allow_all_rotations">Полный поворот экрана</string>
+    <string name="nav_bar">Навигационный бар</string>
+    <string name="on_screen_buttons">Наэкранные кнопки</string>
+    <string name="unlocking_with_fingerprint">Разблокировка отпечатком</string>
+    <string name="aokp_ram_panel">Панель состояния ОЗУ</string>
     <string name="theme_text">Темы</string>
     <string name="profile_text">Мой профиль</string>
     <string name="thank_text">Спасибо</string>
